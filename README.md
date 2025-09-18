@@ -5,10 +5,13 @@ Predict **mean primary particle size (μm)** from composition & sintering parame
 ## 1) Install
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate        # Windows: .venv\Scripts\activate
+# Python 3.12.11 (Anaconda), ngboost 0.5.6
+conda create -n ngb-sem python=3.12.11 -y
+conda activate ngb-sem
 pip install -U pip
-pip install numpy pandas scikit-learn ngboost shap matplotlib seaborn joblib matimpute
+pip install numpy pandas scikit-learn ngboost==0.5.6 shap matplotlib seaborn joblib matimpute
+python -c "import sys, ngboost; print(sys.version); print(ngboost.__version__)"
+
 ```
 
 ## 2) Prepare your data
