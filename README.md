@@ -1,4 +1,4 @@
-# NGBoost Pipeline — Quick Start
+# NGBoost Pipeline
 
 Predict **mean primary particle size (μm)** from composition & sintering parameters using **NGBoost** with cross‑validation, testing, and SHAP‑based interpretation. No dataset is included—use your own CSVs with the required columns below.&#x20;
 
