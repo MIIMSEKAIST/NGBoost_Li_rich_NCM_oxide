@@ -116,5 +116,5 @@ print(f"\nSaved predictions to {out_csv}")
 ```
 ** This work is published in Advanced Sciene **
 
-Uncertainty‐Quantified Primary Particle Size Prediction in Li‐Rich NCM Materials via Machine Learning and Chemistry‐Aware Imputation
+Uncertainty‐Quantified Primary Particle Size Prediction in Li‐Rich NCM Materials via Machine Learning and Chemistry‐Aware Imputation (https://doi.org/10.1002/advs.202515694)
 
