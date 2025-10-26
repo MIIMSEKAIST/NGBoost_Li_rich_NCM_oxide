@@ -113,5 +113,8 @@ df_test['upper_95']       = y_dist.ppf(0.975)
 print(df_test[['predicted_mean','predicted_std','lower_95','upper_95']].head())
 df_test.to_csv(out_csv, index=False)
 print(f"\nSaved predictions to {out_csv}")
-
 ```
+** This work is published in Advanced Sciene **
+
+Uncertainty‐Quantified Primary Particle Size Prediction in Li‐Rich NCM Materials via Machine Learning and Chemistry‐Aware Imputation
+
